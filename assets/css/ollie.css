@@ -11686,7 +11686,25 @@ pre .code {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  background-image: url(../imgs/header.jpg);
+  /*background-image: url(../imgs/header.jpg);*/
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slideshow {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  /*background-image: url(../imgs/header.jpg);*/
   background-size: cover;
   background-position: center;
   display: -webkit-box;
