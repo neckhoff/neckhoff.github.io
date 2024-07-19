@@ -581,6 +581,10 @@ pre code {
   margin-left: 100px;
 }
 
+.AboutProfileImage {
+  position: relative;
+}
+
 .container#HABalloons {
   width: 100%;
   padding-right: 15px;
@@ -11114,8 +11118,6 @@ a.text-dark:hover, a.text-dark:focus {
 .infos .social-links a:hover {
   color: #f06161;
 }
-
-/* contact section */
 .list {
   list-style-type: none;
   padding-left: 0;
