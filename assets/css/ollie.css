@@ -647,6 +647,7 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+    padding-top: 10px;
   }
 }
 
@@ -11700,11 +11701,11 @@ pre .code {
           flex-direction: column;
 }
 
-.slideshow {
+.homeSlides {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  /*background-image: url(../imgs/header.jpg);*/
+  width: 100%;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -11716,6 +11717,15 @@ pre .code {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.slidesContainer {
+  width: 1298px;
+  height: 733px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header-about {
@@ -11807,6 +11817,7 @@ pre .code {
   font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1300 - 300)));
   font-weight: bold;
   margin-bottom: 1.5rem;
+  color: #000;
 }
 
 .header .carousel .carousel-inner .btn {
@@ -11952,7 +11963,7 @@ pre .code {
 }
 
 .section#contact {
-  padding: 173px 10px;
+  padding: 40px 300px;
 }
 
 .section:nth-child(odd) {
