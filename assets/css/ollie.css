@@ -581,8 +581,10 @@ pre code {
   margin-left: 100px;
 }
 
-.AboutProfileImage {
+.about-img img {
   position: relative;
+  width: 400px;
+  height: auto;
 }
 
 .container#HABalloons {
@@ -4561,7 +4563,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -5043,7 +5045,9 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -11169,15 +11173,17 @@ p {
 }
 
 p#About {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  /*font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));*/
+  font-size: 1.25rem;
   opacity: .9;
   color: #111;
   letter-spacing: .6px;
-  width: 800px;
+  width: 1000px;
 }
 
 p#HABalloons {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  /*font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));*/
+  font-size: 1.25rem;
   opacity: .9;
   color: #111;
   letter-spacing: .6px;
@@ -11448,7 +11454,7 @@ p#QB2 {
 .navbar.affix-top {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
-  background: transparent !important;
+  background: #2C3E50 !important;
 }
 
 .navbar.affix-top .nav-link {
@@ -11905,9 +11911,9 @@ pre .code {
 }
 
 .section#About {
-  padding-top: 50px;
+  padding-top: 200px;
   padding-right: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 200px;
   padding-left: 10px;
 }
 
@@ -11984,4 +11990,68 @@ pre .code {
 .section.bg-overlay {
   background: #2C3E50;
   color: #fff;
+}
+
+.home-bg-image {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  top: 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar.navbar-light.bg-light.navbar-expand-lg.fixed-top.affix{
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.spacer {
+  padding-top: 30px;
+}
+
+.resume-preview {
+  text-align: center;
+  margin-top: 1.5rem !important;
+
+}
+
+.preview-container {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.preview-container img {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.button-overlay {
+  position: absolute;
+  top: 35.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p#education {
+  font-weight: 600;
+  color: #000;
+  font-size: 1.1rem;
 }
